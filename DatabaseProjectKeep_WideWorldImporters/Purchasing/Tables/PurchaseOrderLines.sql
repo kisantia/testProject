@@ -1,4 +1,4 @@
-CREATE TABLE [Purchasing].[PurchaseOrderLines] (
+CREATE TABLE [Purchasing].[PurchaseOrderLiness] (
     [PurchaseOrderLineID]       INT             CONSTRAINT [DF_Purchasing_PurchaseOrderLines_PurchaseOrderLineID] DEFAULT (NEXT VALUE FOR [Sequences].[PurchaseOrderLineID]) NOT NULL,
     [PurchaseOrderID]           INT             NOT NULL,
     [StockItemID]               INT             NOT NULL,
