@@ -250,11 +250,19 @@
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
     </ArtifactReference>
+    <ArtifactReference Include="refs\columnset.dacpac">
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>columnset</DatabaseSqlCmdVariable>
+    </ArtifactReference>
   </ItemGroup>
   <ItemGroup>
     <SqlCmdVariable Include="Project2">
       <DefaultValue>Project2</DefaultValue>
       <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="columnset">
+      <DefaultValue>columnset</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
     </SqlCmdVariable>
   </ItemGroup>
   <ItemGroup>
