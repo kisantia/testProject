@@ -265,8 +265,4 @@
       <Value>$(SqlCmdVar__2)</Value>
     </SqlCmdVariable>
   </ItemGroup>
-  <ItemGroup>
-    <PreDeploy Include="Script.PreDeployment1.sql" />
-    <None Include="Script.PreDeployment2.sql" />
-  </ItemGroup>
 </Project>
